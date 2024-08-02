@@ -11,20 +11,20 @@
     <header class="head">
         <div class="logo"><span>Rama</span>Krishna</div>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">My Education</a>
-            <a href="#">Skills</a>
+            <a href="#home1">Home</a>
+            <a href="#education">My Education</a>
+            <a href="#skill">Skills</a>
         </nav>
-        <a href="#" class="contact">contact</a>
+        <a href="#contact" class="contact">contact</a>
     </header>
-    <section class="home">
+    <section class="home" id="home1">
         <div class="home-content">
             <h3>Hi</h3>
             <h1>I'm<span>RamaKrishna<br></span>Frontend Developer</h1>
             <p>
                 Hello! I'm Ramakrishna, a third-year B.Tech student at JNTU-GV College of Engineering, Vizianagaram. As a passionate Python Developer, I enjoy tackling challenging problems and developing innovative solutions. My recent internship experience has allowed me to delve into exciting projects, including web scraping and predictive maintenance systems. Explore my portfolio to see my work and projects that showcase my skills and growth in the field of software development.</p>
             <div class="btn-box">
-                <button class="btn-1">Skills</button>
+                <a href="#skill"><button class="btn-1">Skills</button></a>
                 <button class="btn-2">Projects</button>
             </div>
         </div>
@@ -43,7 +43,7 @@
             <a href="#" class="btn-2">Experience</a>
         </div>
     </section>
-    <div class="education-section">
+    <div class="education-section" id="education">
         <h2>Education</h2>
         <div class="education-item">
             <h3>B.Tech</h3>
@@ -63,8 +63,35 @@
             <p>Graduated: march 2020</p>
         </div>
     </div>
-    
-    <div class="contact-section">
+    <div class="skills-section" id="skill">
+        <h2>My Skills</h2>
+        
+        <div class="skill">
+            <label for="html">HTML</label>
+            <input type="range" id="html" name="html" min="0" max="100" value="70" disabled>
+        </div>
+        <div class="skill">
+            <label for="css">CSS</label>
+            <input type="range" id="css" name="css" min="0" max="100" value="60" disabled>
+        </div>
+        <div class="skill">
+            <label for="javascript">JavaScript</label>
+            <input type="range" id="javascript" name="javascript" min="0" max="100" value="50" disabled>
+        </div>
+        <div class="skill">
+            <label for="python">Python</label>
+            <input type="range" id="python" name="python" min="0" max="100" value="80" disabled>
+        </div>
+        <div class="skill">
+            <label for="python">Java</label>
+            <input type="range" id="java" name="java" min="0" max="100" value="60" disabled>
+        </div>
+        <div class="skill">
+            <label for="Sql">SQL</label>
+            <input type="range" id="sql" name="sql" min="0" max="100" value="50" disabled>
+        </div>
+    </div>
+    <div class="contact-section" id="contact">
         <h2>Contact Us</h2>
         <form>
             <label for="name">Name:</label>
